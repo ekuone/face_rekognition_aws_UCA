@@ -1,6 +1,9 @@
 from camera import *
 
 
-def run():
+def main():
 	Camera().take_pic('cool_guys')
-run()
+
+	
+if __name__ == "__main__":
+	main()
